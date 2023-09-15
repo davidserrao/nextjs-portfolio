@@ -32,7 +32,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Welcome to my portfolio website! Take a look around...
                 </p>
                 <div>
                     <a href="https://www.linkedin.com/in/davidserrao-/" target="_blank">
@@ -48,9 +48,9 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className='col-span-5 place-self-center mt-4 sm:mt-0'>
-                <div className="rounded-full bg-[#212121] w-[250px] h-[250px] lg:w-[325px] lg:h-[325px] relative">
+                <div className="w-[250px] h-[250px] lg:w-[325px] lg:h-[325px] relative">
                     <Image
-                        src="/images/hero-image.PNG"
+                        src="/images/solid-bg_notion.png"
                         alt="picture-of-me-:)"
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         width={325}
