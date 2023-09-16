@@ -41,7 +41,7 @@ const ProjectSection = () => {
     project.tag.includes(tag));
 
   return (
-    <>
+    <section id="projects">
         <h2 className='text-center text-3xl font-bold text-white mb-4'>My Projects</h2>
 
         <div className='flex flex-row justify-center items-center gap-2 py-4'>
@@ -72,7 +72,7 @@ const ProjectSection = () => {
                 linkURL={project.linkURL}
             />))}
         </div>
-    </>
+    </section>
   )
 }
 

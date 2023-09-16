@@ -1,8 +1,10 @@
-import Image from 'next/image'
+
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import AboutSection from './components/AboutSection'
 import ProjectSection from './components/ProjectSection'
+import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectSection />
+        <ContactSection />
+        <Footer />
       </div>
     </main>
   )
