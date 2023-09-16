@@ -36,7 +36,7 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <a href="https://www.linkedin.com/in/davidserrao-/" target="_blank">
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-blue-500 hover:bg-slate-200 hover:text-black hover:border  text-white">
+                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-blue-500 hover:bg-slate-200 hover:text-black text-white">
                             LinkedIn
                         </button>
                     </a>
