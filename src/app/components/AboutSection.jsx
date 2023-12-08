@@ -36,25 +36,26 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc font-semibold'>
-                <li>Startup Exchange
+                <li className='mt-2'><a href="https://www.waterfall.market/" target="_blank" className='text-blue-400 hover:underline'>Waterfall NFT</a>
                     <ul className='font-light text-sm indent-3'>
-                        <li>A.D. of Events</li>
+                        <li>UX/UI Designer</li>
+                        <li>September 2023 - December 2023</li>
+                    </ul>
+                </li>
+                <li><a href="https://www.startup.exchange/" target="_blank" className='text-blue-400 hover:underline'>Startup Exchange</a>
+                    <ul className='font-light text-sm indent-3'>
+                        <li>Director of Events</li>
                         <li>May 2023 - Present</li>
                     </ul>
                 </li>
-                <li className='mt-2'>Epic Intentions
+                <li className='mt-2'><a href="https://www.clarkstonhealth.org/" target="_blank" className='text-blue-400 hover:underline'>
+                    Clarkston Community Health Center
+                </a>
                     <ul className='font-light text-sm indent-3'>
-                        <li>General Consultant</li>
-                        <li>August 2023 - Present</li>
+                        <li>Tech Consultant / UI Designer</li>
+                        <li>August 2023 - November 2023</li>
                     </ul>
                 </li>
-                <li className='mt-2'>Product@GT
-                    <ul className='font-light text-sm indent-3'>
-                        <li>Fellow</li>
-                        <li>September 2023 - Present</li>
-                    </ul>
-                </li>
-                
             </ul>
         ),
     },
