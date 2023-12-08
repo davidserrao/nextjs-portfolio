@@ -27,6 +27,14 @@ const projectsData = [
         image:"/images/project-images/PlantStop-Thumbnail.png",
         tag: ["All", "Design"],
         linkURL: "https://www.figma.com/community/file/1243098972195096824"
+    },
+    {
+        id: 4,
+        title:"Debugger",
+        description:"Videogame project for LMC 2700. Worked on game assets, soundtrack, and Unity development.",
+        image:"images/project-images/Debugger.png",
+        tag: ["All", "Design"],
+        linkURL: "https://conatordev.itch.io/debugger"
     }
 ] 
 
