@@ -14,6 +14,22 @@ const projectsData = [
     },
     {
         id: 2,
+        title:"Rewind",
+        description:"SMS-based microjournaling app with entry data visualizations",
+        image:"/images/project-images/rewind.png",
+        tag: ["All", "Coding"],
+        linkURL: "https://github.com/vkodithala/rewind-backend"
+    },
+    {
+        id: 3,
+        title:"Debugger",
+        description:"Videogame project for LMC 2700. Worked on Unity development, game assets, and soundtrack.",
+        image:"images/project-images/Debugger.png",
+        tag: ["All", "Design"],
+        linkURL: "https://conatordev.itch.io/debugger"
+    },
+    {
+        id: 4,
         title:"Tonify",
         description:"Tonify is a guitar-tone recognition app that uses machine learning. I created the app's UI in Figma.",
         image:"/images/project-images/TonifyThumbnail.png",
@@ -21,29 +37,13 @@ const projectsData = [
         linkURL: "https://www.figma.com/community/file/1242887881505999815"
     },
     {
-        id: 3,
+        id: 5,
         title:"PlantStop",
         description:"Figma mockup for an online ecommerce website that sells all types of house plants.",
         image:"/images/project-images/PlantStop-Thumbnail.png",
         tag: ["All", "Design"],
         linkURL: "https://www.figma.com/community/file/1243098972195096824"
-    },
-    {
-        id: 4,
-        title:"Debugger",
-        description:"Videogame project for LMC 2700. Worked on game assets, soundtrack, and Unity development.",
-        image:"images/project-images/Debugger.png",
-        tag: ["All", "Design"],
-        linkURL: "https://conatordev.itch.io/debugger"
-    },
-    {
-        id: 5,
-        title:"Rewind",
-        description:"SMS-based microjournaling app with entry data visualizations",
-        image:"/images/project-images/rewind.png",
-        tag: ["All", "Coding"],
-        linkURL: "https://github.com/vkodithala/rewind-backend"
-    } 
+    }
     
 ] 
 

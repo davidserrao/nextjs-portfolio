@@ -2,6 +2,7 @@
 import React, {useTransition, useState} from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton';
+import ImageCarousel from './ImageCarousel';
 
 const TAB_DATA = [
     {
@@ -36,16 +37,16 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc font-semibold'>
+                <li><a href="https://www.startup.exchange/" target="_blank" className='text-blue-400 hover:underline'>Startup Exchange</a>
+                    <ul className='font-light text-sm indent-3'>
+                        <li>National Director of Events, Community Growth</li>
+                        <li>May 2023 - Present</li>
+                    </ul>
+                </li>
                 <li className='mt-2'><a href="https://www.waterfall.market/" target="_blank" className='text-blue-400 hover:underline'>Waterfall NFT</a>
                     <ul className='font-light text-sm indent-3'>
                         <li>UX/UI Designer</li>
                         <li>September 2023 - December 2023</li>
-                    </ul>
-                </li>
-                <li><a href="https://www.startup.exchange/" target="_blank" className='text-blue-400 hover:underline'>Startup Exchange</a>
-                    <ul className='font-light text-sm indent-3'>
-                        <li>Director of Events</li>
-                        <li>May 2023 - Present</li>
                     </ul>
                 </li>
                 <li className='mt-2'><a href="https://www.clarkstonhealth.org/" target="_blank" className='text-blue-400 hover:underline'>
@@ -76,12 +77,13 @@ const AboutSection = () => {
   return (
     <section className='text-white' id="about">
         <div className="md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-            <Image src="/images/about.jpeg" width={500} height={500} className="rounded hidden md:block lg:block" alt="mountain-pic"/>
+            {/* <Image src="/images/switz_pic.JPG" width={350} height={350} className="rounded hidden md:block lg:block" alt="mountain-pic"/> */}
+            <ImageCarousel />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                <p className='text-base lg:text-lg'>I’m currently a second year Computer Science student at Georgia Tech with experience in
+                <p className='text-base lg:text-lg'>I’m currently a Computer Science student at Georgia Tech with experience in
                 project management, front-end development, and design softwares. I’m seeking internship
-                opportunities involving project management, full-stack development, UX/UI design,
+                opportunities involving project management, full-stack development,
                 and/or AI development to expand my skills in these fields.</p>
                 <div className='flex flex-row mt-8 text-lg'>
                 <TabButton
