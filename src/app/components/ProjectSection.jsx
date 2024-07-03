@@ -35,7 +35,16 @@ const projectsData = [
         image:"images/project-images/Debugger.png",
         tag: ["All", "Design"],
         linkURL: "https://conatordev.itch.io/debugger"
-    }
+    },
+    {
+        id: 5,
+        title:"Rewind",
+        description:"SMS-based microjournaling app with entry data visualizations",
+        image:"/images/project-images/rewind.png",
+        tag: ["All", "Coding"],
+        linkURL: "https://github.com/vkodithala/rewind-backend"
+    } 
+    
 ] 
 
 const ProjectSection = () => {
