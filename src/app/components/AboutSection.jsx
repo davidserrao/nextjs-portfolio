@@ -9,27 +9,63 @@ const TAB_DATA = [
         titles: "Skills",
         id: "skills",
         content: (
-            <ul className='list-disc font-semibold'>
-                <li>JavaScript (React, Next.js)</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>Git</li>
-            </ul>
+            <div className='flex flex-row'>
+                <div className='basis-1/3'>
+                    <p className='font-semibold text-decoration-line: underline'>Languages</p>
+                    <ul className='list-disc'>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div className='basis-1/3'>
+                    <p className='font-semibold	text-decoration-line: underline'>Technologies</p>
+                    <ul className='list-disc'>
+                        <li>React</li>
+                        <li>Git</li>
+                        <li>REST API's</li>
+                        <li>Flask</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div className='basis-1/3'>
+                    <p className='font-semibold	text-decoration-line: underline'>Other</p>
+                    <ul className='list-disc'>
+                        <li>UX/UI Design</li>
+                        <li>Data Analysis</li>
+                        <li>Figma</li>
+                        <li>Microsoft Office Suite</li>
+                        <li>Project Management</li>
+                        <li>Team Leadership</li>
+                    </ul>
+                </div>
+            </div>
         )
     },
     {
         titles: "Education",
         id: "education",
         content: (
-            <ul className=' font-semibold'>
-                <li>Georgia Institute of Technology
-                    <ul className='font-light text-sm indent-3'>
+            <div className='flex flex-row'>
+                <div className='flex-auto'>
+                    <p className=' font-semibold'> Georgia Institute of Technology </p>
+                    <ul className='font-light text-sm'>
                         <li>Atlanta, Georgia</li>
                         <li>B.S. Computer Science</li>
+                        <li>Minor in Economics</li>
                     </ul>
-                </li>
-                
-            </ul>
+                </div>
+                <div className='flex-auto'>
+                    <p className= 'font-semibold'>Honors:</p>
+                    <ul className='font-light text-sm'>
+                        <li>Faculty Honor's</li>
+                        <li>Dean's List</li>
+                        <li>Zell Miller Scholarship</li>
+                    </ul>   
+                </div>
+            </div>
         )
     },
     {
@@ -45,7 +81,7 @@ const TAB_DATA = [
                 </li>
                 <li className='mt-2'><a href="https://www.waterfall.market/" target="_blank" className='text-blue-400 hover:underline'>Waterfall NFT</a>
                     <ul className='font-light text-sm indent-3'>
-                        <li>UX/UI Designer</li>
+                        <li>Assistant Project Manager</li>
                         <li>September 2023 - December 2023</li>
                     </ul>
                 </li>
@@ -53,7 +89,7 @@ const TAB_DATA = [
                     Clarkston Community Health Center
                 </a>
                     <ul className='font-light text-sm indent-3'>
-                        <li>Tech Consultant / UI Designer</li>
+                        <li>Frontend Engineer and UX Consultant</li>
                         <li>August 2023 - November 2023</li>
                     </ul>
                 </li>
@@ -81,10 +117,17 @@ const AboutSection = () => {
             <ImageCarousel />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                <p className='text-base lg:text-lg'>I’m currently a Computer Science student at Georgia Tech with experience in
-                project management, front-end development, and design softwares. I’m seeking internship
-                opportunities involving project management, full-stack development,
-                and/or AI development to expand my skills in these fields.</p>
+                <p className='text-base lg:text-lg'>I’m currently a 3rd year undergraduate at Georgia Tech studying Computer Science and Economics! 🐝</p>
+                <br></br>
+                <p className='text-base lg:text-lg'>
+                I have professional experience in project management, full-stack development, and technology consulting. I'm passionate about using
+                the technical skills I've learned to make an positive social impacts, especially in the healthcare and environment sectors. 🌎 
+                </p>
+                <br></br>
+                <p className='text-base lg:text-lg'>
+                    In my free time, I love making music, hiking new trails, and 
+                    the gym. Reach out anytime if you'd like to jam! 🎸
+                </p>
                 <div className='flex flex-row mt-8 text-lg'>
                 <TabButton
                     selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
